@@ -9,12 +9,8 @@ var background = new Image();
 background.src = "./assets/wall-background.jpg";
 
 //Game
-const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
-const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
-const GAME_WIDTH = vw;
-const GAME_HEIGHT = vh;
-document.querySelector("canvas").style.width = vw;
-document.querySelector("canvas").style.height = vh;
+const GAME_WIDTH = 650;
+const GAME_HEIGHT = 600;
 let game = new Game(GAME_WIDTH,GAME_HEIGHT);
 game.start();
 

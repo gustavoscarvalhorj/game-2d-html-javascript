@@ -10,9 +10,8 @@ Realize os passos abaixo para colocar o projeto para rodar
 
 - git clone
 - npm install
-- npm install -g http-server
-- http-server . (O ponto é o diretório que você fez o clone do projeto)
+- npm app.js
 
-Por padrão vai executar o projeto na porta 8080.
+Por padrão vai executar o projeto em http://localhost:8080.
 
 Have Fun! :)
